@@ -34,13 +34,20 @@ Change your function to print numbers from 1 to the given number **n**. However,
 | 10    | [“1”, “2”, “Fizz”, “4”, “Buzz”, “Fizz”, “7”, “8”, “Fizz”, “Buzz”]                                                                         |
 | 20    | [“1”, “2”, “Fizz”, “4”, “Buzz”, “Fizz”, “7”, “8”, “Fizz”, “Buzz”, “11”, “Fizz”, “13”, “14”, “FizzBuzz”, “16”, “17”, “Fizz”, “19”, “Buzz”] |
 
-## Notes
+## Tips
 
--   Use Test Driven Development (TDD) by writing and running unit tests in `fizzbuzz.test.js`
+-   Use Test Driven Development (TDD)
 
-    ```shell
-    npm test
-    ```
+    -   Write failing unit test in `fizzbuzz.test.js`
+    -   Run the test
+
+        ```shell
+        npm test
+        ```
+
+    -   Write just enough code in `fizzbuzz.js` to pass the test
+    -   Run the test again to confirm it passes
+    -   Repeat TDD process
 
 -   Export and import your function for unit tests
 
@@ -53,3 +60,5 @@ Change your function to print numbers from 1 to the given number **n**. However,
     // fizzbuzz.test.js
     const { myFunction } = require('./fizzbuzz');
     ```
+
+-   Use comments to keep track of tasks and code changes
