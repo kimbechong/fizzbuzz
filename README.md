@@ -4,7 +4,7 @@ Mob Programming: Collaborative Coding Workshop
 
 ## Goal 1
 
-Create a function in `fizzbuzz.js` that prints given number **n**. However, the function should print the following if the conditions are true:
+Create a function in `fizzbuzz.js` that prints a number given number **n**. However, the function should print the following if the conditions are true:
 
 1. "Fizz" if the number is a multiple of 3
 2. "Buzz" if the number is a multiple of 5
